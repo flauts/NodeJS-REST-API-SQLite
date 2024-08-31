@@ -20,4 +20,4 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 /* Router configuration */
-app.use(require('./app/routes/Router'));
+app.use(require('./app/routes/router'));
